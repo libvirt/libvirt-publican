@@ -1,57 +1,38 @@
-a:link {
-	color:#0066cc;
-}
-
-a:visited {
-	color:#6699cc;
-}
-
 h1 {
-	color:#a70000;
+    font-weight: normal;
+    color: #3c857c;
+}
+h1 strong {
+    font-weight: bold;
+}
+
+h2, h3, h4, h5, h6 {
+    color: #3c857c;
+}
+
+a, a:link, a:visited, a:active {
+    color: #566866;
 }
 
 .producttitle {
-	background: #800 url(../images/h1-bg.png) top left repeat;
-}
-
-.section h1.title {
-	color:#a70000;
+    background: #a4c6c2;
 }
 
 
-h2,h3,h4,h5,h6 {
-	color:#a70000;
+thead th {
+    color: black;
+    background: #a4c6c2;
+    border-bottom: 1px solid #777;
 }
 
-table {
-	border:1px solid #aaa;
+
+div.example {
+   background: inherit;
 }
 
-table th {
-	background-color:#900;
+pre {
+    border: 1px solid #999999;
+    background: #eeeeee;
+    color: black;
+    padding: 1em;
 }
-
-table tr.even td {
-	background-color:#f5f5f5;
-}
-
-#title a {
-	height:54px;
-}
-
-.term{
-	color:#a70000;
-}
-
-.revhistory table th {
-	color:#a70000;
-}
-
-.edition {
-	color: #a70000;
-}
-
-span.remark{
-	background-color: #ffff00;
-}
-
