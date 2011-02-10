@@ -8,7 +8,7 @@ License:	CC-BY-SA
 Group:		Applications/Text
 Buildroot:	%{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
 Buildarch:	noarch
-Source:		https://www.SETUP.set.me.example.com/source/%{name}-%{version}.tgz
+Source:		http://libvirt.org/ftp/source/%{name}-%{version}.tgz
 Requires:	publican >= 1.0
 BuildRequires:	publican >= 1.0
 URL:		http://libvirt.org/
