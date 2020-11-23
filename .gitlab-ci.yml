@@ -47,11 +47,6 @@ centos-7-container:
   variables:
     NAME: centos-7
 
-debian-9-container:
-  <<: *container_job_definition
-  variables:
-    NAME: debian-9
-
 debian-10-container:
   <<: *container_job_definition
   variables:
@@ -62,15 +57,15 @@ debian-sid-container:
   variables:
     NAME: debian-sid
 
-fedora-31-container:
-  <<: *container_job_definition
-  variables:
-    NAME: fedora-31
-
 fedora-32-container:
   <<: *container_job_definition
   variables:
     NAME: fedora-32
+
+fedora-33-container:
+  <<: *container_job_definition
+  variables:
+    NAME: fedora-33
 
 fedora-rawhide-container:
   <<: *container_job_definition
@@ -93,11 +88,6 @@ centos-7-docs:
   variables:
     NAME: centos-7
 
-debian-9-docs:
-  <<: *docs_job_definition
-  variables:
-    NAME: debian-9
-
 debian-10-docs:
   <<: *docs_job_definition
   variables:
@@ -108,15 +98,15 @@ debian-sid-docs:
   variables:
     NAME: debian-sid
 
-fedora-31-docs:
-  <<: *docs_job_definition
-  variables:
-    NAME: fedora-31
-
 fedora-32-docs:
   <<: *docs_job_definition
   variables:
     NAME: fedora-32
+
+fedora-33-docs:
+  <<: *docs_job_definition
+  variables:
+    NAME: fedora-33
 
 fedora-rawhide-docs:
   <<: *docs_job_definition

@@ -14,7 +14,7 @@ then
     exit 1
 fi
 
-HOSTS=$($LCITOOL hosts | grep -v -E '(freebsd|centos-8|centos-stream|opensuse)')
+HOSTS=$($LCITOOL hosts | grep -v -E '(freebsd|centos-8|centos-stream|opensuse|macos)')
 
 for host in $HOSTS
 do
