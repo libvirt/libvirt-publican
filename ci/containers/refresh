@@ -18,5 +18,5 @@ HOSTS=$($LCITOOL hosts | grep -v -E '(freebsd|centos-8|centos-stream|opensuse|ma
 
 for host in $HOSTS
 do
-    $LCITOOL dockerfile $host libvirt-publican > $host.Dockerfile
+    $LCITOOL dockerfile $host libvirt-publican > ci-$host.Dockerfile
 done
