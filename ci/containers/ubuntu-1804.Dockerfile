@@ -1,15 +1,15 @@
 # THIS FILE WAS AUTO-GENERATED
 #
-#  $ lcitool dockerfile debian-10 libvirt-publican
+#  $ lcitool manifest ci/manifest.yml
 #
-# https://gitlab.com/libvirt/libvirt-ci/-/commit/d527e0c012f476c293f3bc801b7da08bc85f98ef
-FROM docker.io/library/debian:10-slim
+# https://gitlab.com/libvirt/libvirt-ci
+
+FROM docker.io/library/ubuntu:18.04
 
 RUN export DEBIAN_FRONTEND=noninteractive && \
     apt-get update && \
     apt-get install -y eatmydata && \
     eatmydata apt-get dist-upgrade -y && \
-    mkdir -p /usr/share/man/man1 && \
     eatmydata apt-get install --no-install-recommends -y \
             ca-certificates \
             git \
