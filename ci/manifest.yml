@@ -14,8 +14,6 @@ targets:
 
   fedora-35: x86_64
 
-  fedora-rawhide: x86_64
-
   ubuntu-1804: x86_64
 
   ubuntu-2004: x86_64
