@@ -10,7 +10,6 @@ RUN export DEBIAN_FRONTEND=noninteractive && \
     apt-get update && \
     apt-get install -y eatmydata && \
     eatmydata apt-get dist-upgrade -y && \
-    mkdir -p /usr/share/man/man1 && \
     eatmydata apt-get install --no-install-recommends -y \
             ca-certificates \
             git \
